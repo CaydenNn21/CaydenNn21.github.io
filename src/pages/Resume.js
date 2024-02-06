@@ -18,7 +18,7 @@ import { skills, categories } from '../data/resume/skills';
 const sections = {
   Education: () => <Education data={degrees} />,
   Experience: () => <Experience data={work} />,
-  Courses: () => <Courses data={courses} />,
+  Qualification: () => <Courses data={courses} />,
   Skills: () => <Skills skills={skills} categories={categories} />,
   References: () => <References />,
 };
