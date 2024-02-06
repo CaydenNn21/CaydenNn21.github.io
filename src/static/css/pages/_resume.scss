@@ -21,13 +21,14 @@
 	.education {
 
 		.title {
-			text-align: center;
-			margin-bottom: 2em;
+			text-align: left;
+			margin-bottom: 1em;
 		}
 	}
 	.experience {
+		padding-top: 1.5em;
 		.title {
-			text-align: center;
+			text-align: left;
 		}
 		.job {
 			margin: 1em;
@@ -48,12 +49,12 @@
 	}
 
 	.courses {
-		padding-top: 1.6em;
+		padding-top: 1.0em;
 		.title {
-			text-align: center;
+			text-align: left;
 		}
 		.course-list {
-			text-align: center;
+			text-align: left;
 
 			h4 {
 				white-space: nowrap;
@@ -62,9 +63,10 @@
 	}
 
 	.skills {
+		padding-top: 1.0em;
 		margin-top: 2em;
 		.title {
-			text-align: center;
+			text-align: left;
 			p {
 				font-size: 0.9em;
 			}
@@ -79,7 +81,7 @@
 	.references {
 		margin: 2em 0;
 		.title {
-			text-align: center;
+			text-align: left;
 		}
 	}
 }

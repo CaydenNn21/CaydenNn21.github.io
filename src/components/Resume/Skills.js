@@ -61,10 +61,17 @@ const Skills = ({ skills, categories }) => {
       <div className="link-to" id="skills" />
       <div className="title">
         <h3>Skills</h3>
-        <p>Note: I think these sections are silly, but everyone seems to have one.
-          Here is a *mostly* honest overview of my skills.
-        </p>
       </div>
+      <h4>Overview</h4>
+      <p>
+        • Database Management: SQL, MySQL <br />
+        • System Development: Software development, system analysis, project management<br />
+        • Programming Languages: Python, Java, C#, ROS Language, HTML<br />
+        • Tools and Software: Oracle, TensorFlow, OpenCV, Pytorch, Scikit-learn, MATLAB<br />
+        • Problem-Solving: Critical thinking, creative problem-solving<br />
+        • Certification: CCNA Introduction to Networks<br />
+        • Technical Documentation: Proficient in creating technical documentation and report<br />
+      </p>
       <div className="skill-button-container">
         {getButtons()}
       </div>

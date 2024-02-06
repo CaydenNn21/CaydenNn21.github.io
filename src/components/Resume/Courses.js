@@ -22,8 +22,19 @@ const Courses = ({ data }) => (
   <div className="courses">
     <div className="link-to" id="courses" />
     <div className="title">
-      <h3>Selected Courses</h3>
+      <h3>Qualification</h3>
     </div>
+    <p>
+      • Pursuing a Bachelor’s Degree of Computer Science with a major
+      in Artificial Intelligence.<br />
+      • Proficiency in programming languages commonly used in AI, such as Python,
+      MATLAB, Java and ROS language.<br />
+      • Strong analytical and problem-solving skills.<br />
+      • Knowledge of machine learning algorithms and deep learning frameworks
+      (e.g., TensorFlow, PyTorch, OpenCV).<br />
+      • Familiarity with natural language processing (NLP), robotics
+      and computer vision.<br />
+    </p>
     <ul className="course-list">
       {getRows(data)}
     </ul>
