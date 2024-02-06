@@ -3,7 +3,7 @@ const degrees = [
     school: 'University of Malaya',
     degree: 'Bachelor\'s Degree of Computer Science (Artificial Intelligence)',
     link: 'https://um.edu.my',
-    year: '2020 - 2024',
+    year: '2020 - present',
     cgpa: '3.82',
   },
   {
